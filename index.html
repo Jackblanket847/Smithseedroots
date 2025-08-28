@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smith Seed Roots</title>
+  <meta name="description" content="Rooted in quality. Growing community. Smith Seed Roots." />
+  <link rel="icon" href="/src/assets/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="/src/styles.css" as="style">
+  <link rel="stylesheet" href="/src/styles.css">
+  <script defer src="/src/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Smith Seed Roots Home">
+      <img src="/src/assets/logo.svg" alt="Smith Seed Roots logo" width="36" height="36">
+      <span>Smith Seed Roots</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" role="banner">
+      <h1>Rooted in quality. Growing community.</h1>
+      <p>Natural products and seeds, thoughtfully curated for growers and makers. Launching soon at <strong>smithseedroots.shop</strong>.</p>
+      <a class="cta" href="#contact">Notify me</a>
+    </section>
+
+    <section id="about" class="stack">
+      <h2>About Smith Seed Roots</h2>
+      <p>We believe good things grow from strong roots. From seeds and supplies to tutorials and community events, we’re building a hub for curious gardeners and creators.</p>
+      <ul class="checks">
+        <li>Quality-first selection</li>
+        <li>Education & how‑tos</li>
+        <li>Community focused</li>
+      </ul>
+    </section>
+
+    <section id="products" class="cards">
+      <h2>Featured Collections (Coming Soon)</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Heirloom Seeds</h3>
+          <p>Handpicked varieties tested for germination and flavor.</p>
+        </article>
+        <article class="card">
+          <h3>Soil & Amendments</h3>
+          <p>Balanced mixes and natural nutrients for strong starts.</p>
+        </article>
+        <article class="card">
+          <h3>Tools & Gear</h3>
+          <p>Durable basics that make tending the garden a joy.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="stack">
+      <h2>Keep in Touch</h2>
+      <p>Want launch updates and early access? Join the list.</p>
+      <form class="signup" method="post" action="https://formsubmit.co" onsubmit="return window.handleSignup(event)">
+        <label>
+          <span>Email</span>
+          <input name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+        </label>
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="micro">By subscribing you agree to our <a href="/docs/privacy.html">Privacy</a> & <a href="/docs/terms.html">Terms</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Smith Seed Roots • <a href="/docs/privacy.html">Privacy</a> • <a href="/docs/terms.html">Terms</a></p>
+  </footer>
+</body>
+</html>
