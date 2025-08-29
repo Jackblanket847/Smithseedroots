@@ -1,0 +1,8 @@
+{
+  "base_currency": "USD",
+  "rates": {
+    "EUR": 0.92,
+    "GBP": 0.79,
+    "JPY": 145.22
+  }
+}

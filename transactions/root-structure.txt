@@ -1,0 +1,5 @@
+# transactions/
+   - input/        # drop raw data files here (CSV, JSON, etc.)
+   - output/       # calculated results go here
+   - scripts/      # calculation script(s)
+      - config.json   # settings (exchange rates, API keys, etc.)
