@@ -1,0 +1,3 @@
+{hostname: _github-pages-challenge-Jackblanket847}
+
+  {value: f0973d5ef8a8299c9f40106955d507}
