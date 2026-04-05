@@ -1,0 +1,18 @@
+<!-- Centralized Analytics Policy Layer -->
+<script>
+  /* Rulemaking Policy: Traffic Observation */
+  const AnalyticsPolicy = {
+    allowTracking: true,
+    anonymizeIP: true,
+    dataRetentionDays: 30,
+    routeRules: {
+      "/": "home_view",
+      "/gallery": "gallery_view"
+    }
+  };
+
+  function trackPage(route) {
+    if (!AnalyticsPolicy.allowTracking) return;
+    console.log("[Analytics]", AnalyticsPolicy.routeRules[route] || "unknown_route");
+  }
+</script>

@@ -1,0 +1,32 @@
+{
+  "policy": {
+    "routing": "category-first",
+    "visibility": "public",
+    "cache": "edge"
+  },
+  "products": [
+    {
+      "id": "seed-001",
+      "name": "Heirloom Tomato Seeds",
+      "category": "seeds",
+      "days_to_sprout": 7,
+      "days_to_harvest": 90,
+      "price": 3.99
+    },
+    {
+      "id": "veg-010",
+      "name": "Garden Kale Plant",
+      "category": "vegetables",
+      "days_to_sprout": 14,
+      "days_to_harvest": 60,
+      "price": 5.49
+    },
+    {
+      "id": "tree-100",
+      "name": "Dwarf Apple Tree",
+      "category": "fruit_trees",
+      "days_to_harvest": 180,
+      "price": 29.99
+    }
+  ]
+}

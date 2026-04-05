@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smith Seeds, Roots, Gardening!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tailwind CDN (static site friendly) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body class="bg-white text-[#1A2421]">
+
+  <!-- Header -->
+  <!--#include virtual="/components/header.html" -->
+
+  <main>
+    <!-- HERO -->
+    <div>
+      <img
+        src="/assets/images/hero-greenhouse.jpg"
+        alt="Greenhouse nursery"
+        class="w-full h-[500px] object-cover"
+      />
+    </div>
+
+    <!-- STORY SECTION -->
+    <section class="max-w-7xl mx-auto px-4 py-20">
+      <span class="overline">Our Story</span>
+
+      <h2 class="font-['Cormorant_Garamond'] text-3xl sm:text-4xl mt-4 mb-6">
+        Growing Gardens, Cultivating Stories
+      </h2>
+
+      <div class="space-y-4 text-[#5C6B67] leading-relaxed">
+        <p>
+          At Smith Seeds, Roots, Gardening!, we believe every seed holds a story waiting to unfold.
+          Since 1952, we've been helping gardeners of all skill levels bring their green dreams to life.
+        </p>
+
+        <p>
+          Our collection of over <strong>500</strong> products spans from tiny sprouting seeds
+          to magnificent fruit trees.
+        </p>
+
+        <p>
+          From first sprout at 3 days to harvest at 6 months, we guide you every step of the way.
+        </p>
+      </div>
+
+      <a href="/gallery.html">
+        <button class="mt-8 bg-[#4A5D23] hover:bg-[#3D4D1D] text-white px-8 py-4 rounded-md shadow inline-flex items-center gap-2">
+          Start Your Growing Journey →
+        </button>
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <!--#include virtual="/components/footer.html" -->
+
+  <!-- Analytics -->
+  <!--#include virtual="/meta/analytics.html" -->
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "database": "sqlite",
+  "access_model": "application-layer",
+  "authentication": "bcrypt",
+  "allowed_clients": ["10.0.0.144"],
+  "router": "10.0.0.1",
+  "roles": {
+    "admin": {
+      "read": true,
+      "write": true,
+      "schema": true
+    }
+  }
+}

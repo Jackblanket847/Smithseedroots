@@ -1,0 +1,10 @@
+/* Global Policy Styling */
+:root {
+  --primary: #4A5D23;
+  --secondary: #8A9A5B;
+}
+
+[data-active="true"] {
+  color: var(--primary);
+  font-weight: bold;
+}
