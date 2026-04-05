@@ -1,0 +1,10 @@
+{
+  "rmz.ob.triggered" : "{\"shoutbox-cue-greeting\":1}",
+  "rmz.ob_conv" : "{\"shoutbox-cue-greeting\":{\"message\":\"Let me know if you have any questions!\",\"id\":\"shoutbox-cue-greeting\",\"user\":{\"type\":\"custom\",\"name\":\"Smith Seed Roots\",\"avatarUrls\":[\"https:\/\/reamaze.com\/assets\/default_avatars\/missing-0-4fe0044f863d2fe8f1e2099d86ce5dbeb65b8df544eacca8cbdcaba093826132.png\"]},\"timestamp\":1775213608218,\"unread\":true,\"buttons\":[{\"text\":\"I have a question\",\"response\":true},{\"text\":\"No, thanks\",\"dismiss\":true}],\"persisted\":true,\"name\":\"Shoutbox Cue Greeting\",\"transient\":true,\"botsEnabled\":true,\"live\":false,\"auto\":false,\"enableCustomFields\":false,\"disableCueClick\":false,\"shoutboxSlug\":\"\",\"expires\":0}}",
+  "rmz.account" : "4942da3b-ee24-4af1-8803-5883ce024d9e",
+  "rmz.messagePrompts.state" : "{}",
+  "rmz.chat.minimized" : "1",
+  "rmz._vd" : "{\"first_seen\":\"2026-04-03T10:30:48.761Z\",\"ts\":1775212324277,\"cts\":[],\"visits\":1}",
+  "rmz.notifications_st" : "{\"shoutbox-cue-greeting\":2}",
+  "rmz.routeParams" : "{}"
+}
